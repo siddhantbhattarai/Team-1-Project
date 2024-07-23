@@ -15,5 +15,3 @@
 * Handwritten Feedback
 
 * Transparency
-
-* 

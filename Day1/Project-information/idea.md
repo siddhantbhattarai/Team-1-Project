@@ -356,4 +356,3 @@ Categorize the complain and send it to respective department
 3. Data Analytics
 
 4. Complaints management Dashbord
-
