@@ -9,3 +9,11 @@
 * Student engagement between other students are minimal
 
 * Schedule management for teacher and students
+
+* Complaint management and feedback
+
+* Handwritten Feedback
+
+* Transparency
+
+* 
