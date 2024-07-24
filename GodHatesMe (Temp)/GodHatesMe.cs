@@ -30,6 +30,11 @@ namespace GodHatesMe
         {
             options.UseSqlite($"Data Source={DbPath}");
         }
+        public DbSet<GodHatesMe.Models.TeacherViewModel> TeacherViewModel { get; set; } = default!;
+        public DbSet<GodHatesMe.Models.ModuleViewModel> ModuleViewModel { get; set; } = default!;
+        public DbSet<GodHatesMe.Models.SemesterViewModel> SemesterViewModel { get; set; } = default!;
+        public DbSet<GodHatesMe.Models.ProgramViewModel> ProgramViewModel { get; set; } = default!;
+        public DbSet<GodHatesMe.Models.IntakeViewModel> IntakeViewModel { get; set; } = default!;
     }
 
     public class Module
@@ -82,7 +87,7 @@ namespace GodHatesMe
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string ModuleName { get; set; }
+
         public int AverageScore { get; set; }
         public int ModuleId { get; set; }
         public Module Module { get; set; }
