@@ -1,6 +1,6 @@
 # Team-1-Projects
 
-## Speakup
+## 
 
 A Issue/Complain Management System for ISMT College to efficiently handle and resolve student, faculty, and staff complaints and collect feedbacks from students in a more effective manner. This system will streamline the process of lodging, tracking, and resolving complaints, ensuring timely responses and improving overall satisfaction within the institution.
 
@@ -118,7 +118,7 @@ requirementDiagram
 
 13. **Design a Responsive Interface:**
     - Ensure the system is accessible and provides a seamless user experience across different devices and platforms
-    
+
 ### Wireframe
 
 ![Wireframe](/Team-1-Project/Documentation/Project-info-picture/wireframe1.jpg)
