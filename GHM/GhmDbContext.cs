@@ -12,6 +12,7 @@ namespace GHM
         public DbSet<Feedback> Feedbacks { get; set; }
         public DbSet<Issue> Issues { get; set; }
         public DbSet<ResolvedIssues> ResolvedIssues { get; set; }
+        // public DbSet<User> Users { get; set; }
         public string DbPath { get; }
 
         public GhmDbContext()
@@ -32,6 +33,7 @@ namespace GHM
         public DbSet<GHM.Models.FeedbackViewModel> FeedbackViewModel { get; set; } = default!;
         public DbSet<GHM.Models.IssueViewModel> IssueViewModel { get; set; } = default!;
         public DbSet<GHM.Models.ResolvedIssuesViewModel> ResolvedIssuesViewModel { get; set; } = default!;
+        // public DbSet<GHM.Models.UserViewModel> UserViewModel { get; set; } = default!;
     }
 
     public class Module
@@ -48,53 +50,21 @@ namespace GHM
 
     }
 
-    public class FeedbackQuestion{
+    public class FeedbackQuestion
+    {
         public int Id { get; set; }
-        public string Q1 { get; set; }
-        public string Q2 { get; set; }
-        public string Q3 { get; set; }
-        public string Q4 { get; set; }
+        public string Qn { get; set; }
     }
 
-    public class Feedback{
+
+    public class Feedback
+    {
         public int Id { get; set; }
-        public int ModuleId1 { get; set; }
-        public int ModuleId2 { get; set; }
-        public int ModuleId3 { get; set; }
-        public int TeacherId1 { get; set; }
-        public int TeacherId2 { get; set; }
-        public int TeacherId3 { get; set; }
-        public string Answer1 { get; set; }
-        public string Answer2 { get; set; }
-        public string Answer3 { get; set; }
-        public string Answer4 { get; set; }
-        public int FeedbackQuestionId1 { get; set; }
-        public Teacher Teacher1 { get; set; }
-        public Teacher Teacher2 { get; set; }
-        public Teacher Teacher3 { get; set; }
-        public FeedbackQuestion FeedbackQuestion1 { get; set; }
-        public FeedbackQuestion FeedbackQuestion2 { get; set; }
-        public FeedbackQuestion FeedbackQuestion3 { get; set; }
-        public FeedbackQuestion FeedbackQuestion4 { get; set; }
-
-
-        // [ForeignKey("Module1")]
-        // public int ModuleId1 { get; set; }
-
-        // [ForeignKey("Module2")]
-        // public int ModuleId2 { get; set; }
-
-        // [ForeignKey("Module3")]
-        // public int ModuleId3 { get; set; }
-
-        // [ForeignKey("Teacher1")]
-        // public int TeacherId1 { get; set; }
-
-        // [ForeignKey("Teacher2")]
-        // public int TeacherId2 { get; set; }
-
-        // [ForeignKey("Teacher3")]
-        // public int TeacherId3 { get; set; }
+        public int FeedbackQuestionId { get; set; }
+        public FeedbackQuestion FeedbackQuestion { get; set; }
+        public int TeacherId { get; set; }
+        public Teacher Teacher { get; set; }
+        public int Rating { get; set; }
     }
 
     public class Issue{
@@ -111,4 +81,13 @@ namespace GHM
         public string Status {get; set;} = "Pending";
         public Issue Issue {get; set;}
     }
+
+    // public class User
+    // {
+    //     public int Id { get; set; }
+    //     public string Name { get; set; }
+
+    //     public string Password { get; set; }
+    //     public string Role { get; set; }
+    // }
 }
