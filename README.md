@@ -1,8 +1,36 @@
 # Team-1-Projects
 
-## 
+## Kiko
 
 A Issue/Complain Management System for ISMT College to efficiently handle and resolve student, faculty, and staff complaints and collect feedbacks from students in a more effective manner. This system will streamline the process of lodging, tracking, and resolving complaints, ensuring timely responses and improving overall satisfaction within the institution.
+
+### App Information
+
+```JSON
+{
+  "appInfo": {
+    "name": "Kiko",
+    "language": "C#, HTML, CSS, JS",
+    "version": "1.0.0",
+    "description": "ISMT SpeakUp is a comprehensive Complaint, Issue, and Feedback Management System designed specifically for ISMT College. The platform facilitates seamless communication between students, faculty, and administration by allowing users to report, track, and resolve various issues effectively.",
+    "features": [
+      "User-friendly interface for submitting complaints, issues, and feedback",
+      "Categorized issue tracking and management",
+      "Real-time notifications and updates",
+      "Anonymous reporting option",
+      "Detailed analytics and reporting tools",
+      "Role-based access control"
+    ],
+    "targetAudience": "Students, Faculty, and Administrative Staff of ISMT College"
+  },
+  "developedBy": [
+    "Reyon Rai",
+    "Sushan Bajracharya",
+    "Prabin Panta",
+    "Binod Bhusal"
+  ]
+}
+```
 
 ### Features
 
@@ -121,5 +149,5 @@ requirementDiagram
 
 ### Wireframe
 
-![Wireframe](/Team-1-Project/Documentation/Project-info-picture/wireframe1.jpg)
+![Wireframe](/Documentation/Project-info-picture/wireframe1.jpg)
 
