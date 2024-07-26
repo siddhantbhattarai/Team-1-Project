@@ -153,4 +153,4 @@ requirementDiagram
 
 ### User Manual
 
-Please visit the document redirected to see the user manual [User Manual](/Documentation/Projct-information/UserManual.md)
+Please visit the document redirected to see the user manual [User Manual](/Documentation/Project-information/UserManual.md)
