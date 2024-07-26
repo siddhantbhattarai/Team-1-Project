@@ -151,3 +151,6 @@ requirementDiagram
 
 ![Wireframe](/Documentation/Project-info-picture/wireframe1.jpg)
 
+### User Manual
+
+Please visit the document redirected to see the user manual [User Manual](/Documentation/Projct-information/UserManual.md)
