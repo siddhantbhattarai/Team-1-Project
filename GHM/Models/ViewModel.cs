@@ -40,32 +40,37 @@ namespace GHM.Models
         
         /// Gets or sets the feedback question ID.
         public int Id { get; set; }
-
+    
         
         /// Gets or sets the question 1.
+        public string Qn { get; set; }
         public string Q1 { get; set; }
-
+    
         
         /// Gets or sets the question 2.
         public string Q2 { get; set; }
-
+    
         
         /// Gets or sets the question 3.
         public string Q3 { get; set; }
-
+    
         
         /// Gets or sets the question 4.
         public string Q4 { get; set; }
+        
+        /// Gets or sets the answer.
     }
 
-        public class FeedbackViewModel
-        public int Id { get; set; }
-        public string Qn { get; set; }
-        public string Module { get; set; }
-        public string Rating { get; set; }
-        public int ModuleId { get; set; }
-        public int TeacherId { get; set; }
-        public int FeedbackQuestionId { get; set; }
+    public class FeedbackViewModel
+    {
+        public int SelectedModule { get; set; }
+        public int SelectedTeacher { get; set; }
+        public List<ModuleViewModel> Modules { get; set; }
+        public List<TeacherViewModel> Teachers { get; set; }
+        public List<int> Answers { get; set; } = new List<int>();
+        public List<FeedbackQuestionViewModel> FeedbackQuestions { get; set; }
+        // public int Answer { get; set; }
     }
-        
+
+
 }

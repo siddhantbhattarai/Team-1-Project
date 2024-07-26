@@ -76,8 +76,7 @@ namespace GHM.Controllers
     {
         return View();
     }
-
-    [HttpPost]
+        [HttpPost]
     [ValidateAntiForgeryToken]
     public IActionResult CreateFeedbackQuestion(FeedbackQuestionViewModel feedbackQuestion)
     {
@@ -113,64 +112,114 @@ namespace GHM.Controllers
         /// 
   
     // Controller for displaying the feedback form
-    public IActionResult FeedbackForm()
+    // public IActionResult FeedbackForm()
+    // {
+    //     var feedbackQuestions = db.FeedbackQuestions.ToList();
+    //     var modules = db.Modules.ToList();
+    //     var teachers = db.Teachers.ToList();
+
+    //     var model = new FeedbackViewModel
+    //     {
+    //         FeedbackQuestions = feedbackQuestions,
+    //         Modules = modules,
+    //         Teachers = teachers
+    //     };
+
+    //     return View(model);
+    // }
+[HttpGet]
+public IActionResult FeedbackForm()
+{
+    var feedbackQuestions = db.FeedbackQuestions.ToList()
+                        .Select(q => new FeedbackQuestionViewModel 
+                        { 
+                            Id = q.Id, 
+                            Qn = q.Qn 
+                        }).ToList();
+
+    var modules = db.Modules.ToList()
+                        .Select(m => new ModuleViewModel 
+                        { 
+                            Id = m.Id, 
+                            Name = m.Name 
+                        }).ToList();
+
+    var teachers = db.Teachers.ToList()
+                        .Select(t => new TeacherViewModel 
+                        { 
+                            Id = t.Id, 
+                            Name = t.Name 
+                        }).ToList();
+
+    var model = new FeedbackViewModel
     {
-        var teachers = db.Teachers.Include(t => t.Module).ToList();
-        var questions = db.FeedbackQuestions.ToList();
+        FeedbackQuestions = feedbackQuestions,
+        Modules = modules,
+        Teachers = teachers,
+        Answers = new List<int>(new int[feedbackQuestions.Count]) // Initialize the answers list with the same count as questions
+    };
 
-        var viewModel = new List<FeedbackQuestionViewModel>();
+    return View(model);
+}
 
-        foreach (var question in questions)
-        {
-            var feedback = new FeedbackViewModel
-            {
-                Id = question.Id,
-                Qn = question.Qn,
-                TeacherId = 0,
-                ModuleId = 0,
-                Rating = string.Empty,
-                Teachers = teachers.Select(t => new TeacherViewModel
-                {
-                    Id = t.Id,
-                    Name = t.Name,
-                    ModuleId = t.ModuleId
-                }).ToList(),
-                Modules = teachers.Select(t => new ModuleViewModel
-                {
-                    Id = t.Module.Id,
-                    Name = t.Module.Name
-                }).Distinct().ToList()
-            };
-
-            viewModel.Add(feedback);
-        }
-
-        return View(viewModel);
-    }
-
-    // Controller for handling form submission
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public IActionResult FeedbackForm(List<FeedbackQuestionViewModel> feedbacks)
+[HttpPost]
+[ValidateAntiForgeryToken]
+public IActionResult FeedbackForm(FeedbackViewModel model)
+{
+    try
     {
-        foreach (var feedback in feedbacks)
+        if (ModelState.IsValid)
         {
-            foreach (var teacher in feedback.Teachers)
+            for (int i = 0; i < model.FeedbackQuestions.Count; i++)
             {
-                var newFeedback = new Feedback
+                //var feedb = new Feedback
                 {
-                    FeedbackQuestionId = feedback.Id,
-                    TeacherId = teacher.Id,
-                    Rating = int.Parse(feedback.Rating)
+                    //ModuleId = model.SelectedModule,
+                    //TeacherId = model.SelectedTeacher,
+                    //FeedbackQuestionId = model.FeedbackQuestions[i].Id,
+                    //Answer = model.Answers[i]
                 };
 
-                db.Feedbacks.Add(newFeedback);
+                //db.Feedbacks.Add(feedb);
             }
+            
+            db.SaveChanges();
+
+            return RedirectToAction("Index");
         }
 
-        db.SaveChanges();
-        return RedirectToAction("Index");
+        //model.FeedbackQuestions = db.FeedbackQuestions.ToList()
+        //                       .Select(q => new FeedbackQuestionViewModel 
+        //                       { 
+        //                           Id = q.Id, 
+        //                           Qn = q.Qn 
+        //                       }).ToList();
+        //model.Modules = db.Modules.ToList()
+        //                     .Select(m => new ModuleViewModel 
+        //                     { 
+        //                         Id = m.Id, 
+        //                         Name = m.Name 
+        //                     }).ToList();
+        model.Teachers = db.Teachers.ToList()
+                            .Select(t => new TeacherViewModel 
+                            { 
+                                Id = t.Id, 
+                                Name = t.Name 
+                            }).ToList();
+
+        return View(model);
     }
+    catch
+    {
+        return View();
+    }
+
+    // Add a return statement for all code paths
+    
+}
+
+
+
         /// Controller For Index
         /// shows the No of modules, teachers, feedback questions and feedbacks
         /// 
@@ -180,7 +229,7 @@ namespace GHM.Controllers
             var modules = db.Modules.ToList();
             var teachers = db.Teachers.ToList();
             var feedbackQuestions = db.FeedbackQuestions.ToList();
-            var feedbacks = db.Feedbacks.ToList();
+            // var feedbacks = db.Feedbacks.ToList();
 
             var viewModel = new IndexViewModel
             {
@@ -196,10 +245,10 @@ namespace GHM.Controllers
                 {
                     // Map properties from FeedbackQuestion to FeedbackQuestionViewModel
                 }).ToList(),
-                Feedbacks = feedbacks.Select(f => new FeedbackViewModel
-                {
+                // Feedbacks = feedbacks.Select(f => new FeedbackViewModel
+                // {
                     // Map properties from Feedback to FeedbackViewModel
-                }).ToList()
+                // }).ToList()
             };
 
             return View(viewModel);
@@ -259,30 +308,30 @@ namespace GHM.Controllers
         /// Controller For Feedback List
         /// shows the list of feedbacks
         /// 
-        public IActionResult Feedbacks()
-        {
-            var db = new GhmDbContext();
-            var feedbacks = db.Feedbacks.Select(f => new FeedbackViewModel
-            {
-                Id = f.Id,
-                TeacherId1 = f.TeacherId1,
-                TeacherId2 = f.TeacherId2,
-                TeacherId3 = f.TeacherId3,
-                // ModuleId1 = f.ModuleId1,
-                // ModuleId2 = f.ModuleId2,
-                // ModuleId3 = f.ModuleId3,
-                // FeedbackQuestionId1 = f.FeedbackQuestionId1,
-                // FeedbackQuestionId2 = f.FeedbackQuestionId1,
-                // FeedbackQuestionId3 = f.FeedbackQuestionId1,
-                // FeedbackQuestionId4 = f.FeedbackQuestionId1,
-                // Answer1 = f.Answer1,
-                // Answer2 = f.Answer2,
-                // Answer3 = f.Answer3,
-                // Answer4 = f.Answer4
-            }).ToList();
+        // public IActionResult Feedbacks()
+        // {
+        //     var db = new GhmDbContext();
+        //     var feedbacks = db.Feedbacks.Select(f => new FeedbackViewModel
+        //     {
+        //         Id = f.Id,
+        //         TeacherId1 = f.TeacherId1,
+        //         TeacherId2 = f.TeacherId2,
+        //         TeacherId3 = f.TeacherId3,
+        //         // ModuleId1 = f.ModuleId1,
+        //         // ModuleId2 = f.ModuleId2,
+        //         // ModuleId3 = f.ModuleId3,
+        //         // FeedbackQuestionId1 = f.FeedbackQuestionId1,
+        //         // FeedbackQuestionId2 = f.FeedbackQuestionId1,
+        //         // FeedbackQuestionId3 = f.FeedbackQuestionId1,
+        //         // FeedbackQuestionId4 = f.FeedbackQuestionId1,
+        //         // Answer1 = f.Answer1,
+        //         // Answer2 = f.Answer2,
+        //         // Answer3 = f.Answer3,
+        //         // Answer4 = f.Answer4
+        //     }).ToList();
 
-            return View(feedbacks);
-        }
+        //     return View(feedbacks);
+        // }
 
     }
     

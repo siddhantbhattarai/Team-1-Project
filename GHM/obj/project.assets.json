@@ -7585,11 +7585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\Issue-resolving-system\\GHM\\GHM.csproj",
+      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\GHM.csproj",
       "projectName": "GHM",
-      "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\Issue-resolving-system\\GHM\\GHM.csproj",
+      "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\GHM.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\Issue-resolving-system\\GHM\\obj\\",
+      "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

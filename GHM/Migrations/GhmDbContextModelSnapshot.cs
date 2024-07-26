@@ -54,6 +54,15 @@ namespace GHM.Migrations
                     b.Property<int>("FeedbackQuestionId1")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("ModuleId1")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ModuleId2")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ModuleId3")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("Teacher1Id")
                         .HasColumnType("INTEGER");
 
@@ -97,40 +106,25 @@ namespace GHM.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Qn")
+                    b.Property<string>("Q1")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Q2")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Q3")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Q4")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
                     b.ToTable("FeedbackQuestions");
-                });
-
-            modelBuilder.Entity("GHM.Issue", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("RecommendedSolution")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Issues");
                 });
 
             modelBuilder.Entity("GHM.Models.FeedbackQuestionViewModel", b =>
@@ -262,37 +256,6 @@ namespace GHM.Migrations
                     b.ToTable("FeedbackViewModel");
                 });
 
-            modelBuilder.Entity("GHM.Models.IssueViewModel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("RecommendedSolution")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("IssueViewModel");
-                });
-
             modelBuilder.Entity("GHM.Models.ModuleViewModel", b =>
                 {
                     b.Property<int>("Id")
@@ -311,28 +274,6 @@ namespace GHM.Migrations
                     b.HasIndex("FeedbackViewModelId");
 
                     b.ToTable("ModuleViewModel");
-                });
-
-            modelBuilder.Entity("GHM.Models.ResolvedIssuesViewModel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("IssueId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("IssueTitle")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("ResolvedIssuesViewModel");
                 });
 
             modelBuilder.Entity("GHM.Models.TeacherViewModel", b =>
@@ -375,26 +316,6 @@ namespace GHM.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Modules");
-                });
-
-            modelBuilder.Entity("GHM.ResolvedIssues", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("IssueId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("IssueId");
-
-                    b.ToTable("ResolvedIssues");
                 });
 
             modelBuilder.Entity("GHM.Teacher", b =>
@@ -495,17 +416,6 @@ namespace GHM.Migrations
                     b.HasOne("GHM.Models.FeedbackViewModel", null)
                         .WithMany("Teachers")
                         .HasForeignKey("FeedbackViewModelId");
-                });
-
-            modelBuilder.Entity("GHM.ResolvedIssues", b =>
-                {
-                    b.HasOne("GHM.Issue", "Issue")
-                        .WithMany()
-                        .HasForeignKey("IssueId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Issue");
                 });
 
             modelBuilder.Entity("GHM.Teacher", b =>

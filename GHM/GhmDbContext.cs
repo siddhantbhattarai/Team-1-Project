@@ -9,7 +9,7 @@ namespace GHM
         public DbSet<Module> Modules { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<FeedbackQuestion> FeedbackQuestions { get; set; }
-        public DbSet<Feedback> Feedbacks { get; set; }
+        // public DbSet<Feedback> Feedbacks { get; set; }
         public DbSet<Issue> Issues { get; set; }
         public DbSet<ResolvedIssues> ResolvedIssues { get; set; }
         // public DbSet<User> Users { get; set; }
@@ -27,12 +27,12 @@ namespace GHM
         {
             options.UseSqlite($"Data Source={DbPath}");
         }
-        public DbSet<GHM.Models.ModuleViewModel> ModuleViewModel { get; set; } = default!;
-        public DbSet<GHM.Models.TeacherViewModel> TeacherViewModel { get; set; } = default!;
-        public DbSet<GHM.Models.FeedbackQuestionViewModel> FeedbackQuestionViewModel { get; set; } = default!;
-        public DbSet<GHM.Models.FeedbackViewModel> FeedbackViewModel { get; set; } = default!;
-        public DbSet<GHM.Models.IssueViewModel> IssueViewModel { get; set; } = default!;
-        public DbSet<GHM.Models.ResolvedIssuesViewModel> ResolvedIssuesViewModel { get; set; } = default!;
+        // public DbSet<GHM.Models.ModuleViewModel> ModuleViewModel { get; set; } = default!;
+        // public DbSet<GHM.Models.TeacherViewModel> TeacherViewModel { get; set; } = default!;
+        // public DbSet<GHM.Models.FeedbackQuestionViewModel> FeedbackQuestionViewModel { get; set; } = default!;
+        // public DbSet<GHM.Models.FeedbackViewModel> FeedbackViewModel { get; set; } = default!;
+        // public DbSet<GHM.Models.IssueViewModel> IssueViewModel { get; set; } = default!;
+        // public DbSet<GHM.Models.ResolvedIssuesViewModel> ResolvedIssuesViewModel { get; set; } = default!;
         // public DbSet<GHM.Models.UserViewModel> UserViewModel { get; set; } = default!;
     }
 
@@ -42,7 +42,8 @@ namespace GHM
         public string Name { get; set; }
     }
 
-    public class Teacher{
+    public class Teacher
+    {
         public int Id { get; set; }
         public string Name { get; set; }
         public int ModuleId { get; set; }
@@ -57,17 +58,10 @@ namespace GHM
     }
 
 
-    public class Feedback
-    {
-        public int Id { get; set; }
-        public int FeedbackQuestionId { get; set; }
-        public FeedbackQuestion FeedbackQuestion { get; set; }
-        public int TeacherId { get; set; }
-        public Teacher Teacher { get; set; }
-        public int Rating { get; set; }
-    }
 
-    public class Issue{
+
+    public class Issue
+    {
         public int Id { get; set; }
         public string Title { get; set; }
         public string Category { get; set; }
@@ -75,11 +69,12 @@ namespace GHM
         public string RecommendedSolution { get; set; }
     }
 
-    public class ResolvedIssues{
-        public int Id {get; set;}
-        public int IssueId {get; set;}
-        public string Status {get; set;} = "Pending";
-        public Issue Issue {get; set;}
+    public class ResolvedIssues
+    {
+        public int Id { get; set; }
+        public int IssueId { get; set; }
+        public string Status { get; set; } = "Pending";
+        public Issue Issue { get; set; }
     }
 
     // public class User

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C0sjhcPCTs7FJrnDTueHbeECrNQwU12YQrunc44lb90tuYKBk+TpnoUzrtmeTZA7CuQps7hjjjWn+Eh/sDdmNQ==",
+  "dgSpecHash": "qG1LKowuXTYCr4AzeSuF1HakoRYJjk/sGN3a0Iro/QWv10W8yMhTSkAfBivtRD0wOp4Kk7410+KowSJW1T1L6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\Issue-resolving-system\\GHM\\GHM.csproj",
+  "projectFilePath": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\GHM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\dapper.ambientcontext\\1.8.1\\dapper.ambientcontext.1.8.1.nupkg.sha512",

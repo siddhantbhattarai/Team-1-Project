@@ -1,38 +1,50 @@
-@model List<GHM.Models.FeedbackQuestionViewModel>
+@model FeedbackViewModel
 
-@{
-    ViewData["Title"] = "Feedback Form for Teacher Evaluation by Students";
+@using (Html.BeginForm()) 
+{
+    <div>
+        <h2>Feedback Form</h2>
+
+        <div>
+            @* <label>Module:</label> *@
+            @* @Html.DropDownListFor(m => m.SelectedModule, new SelectList(Model.Modules, "Id", "Name")) *@
+        </div>
+
+        <div>
+            <label>Teacher:</label>
+            @Html.DropDownListFor(m => m.SelectedTeacher, new SelectList(Model.Teachers, "Id", "Name"))
+        </div>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Sn</th>
+                    <th>Points</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.FeedbackQuestions.Count; i++)
+                {
+                    <tr>
+                        <td>@(i + 1)</td>
+                        <td>@Model.FeedbackQuestions[i].Qn</td>
+                        <td>
+                            @Html.DropDownListFor(m => m.Answers[i], new SelectList(Enumerable.Range(1, 5)))
+                            @Html.ValidationMessageFor(m => m.Answers[i])
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div>
+            <input type="submit" value="Submit" class="btn btn-primary" />
+        </div>
+    </div>
 }
 
-<h1>Feedback Form for Teacher Evaluation by Students</h1>
 
-<form asp-action="FeedbackForm" method="post">
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Questions</th>
-                @foreach (var module in Model.First().Modules)
-                {
-                    <th>@module.Name</th>
-                }
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var feedback in Model)
-            {
-                <tr>
-                    <td>@feedback.Qn</td>
-                    @foreach (var teacher in feedback.Teachers)
-                    {
-                        <td>
-                            <input type="hidden" name="[@feedback.Id].Teachers[@teacher.Id].TeacherId" value="@teacher.Id" />
-                            <input type="hidden" name="[@feedback.Id].Teachers[@teacher.Id].ModuleId" value="@teacher.ModuleId" />
-                            <input type="text" name="[@feedback.Id].Teachers[@teacher.Id].Rating" value="" class="form-control" />
-                        </td>
-                    }
-                </tr>
-            }
-        </tbody>
-    </table>
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+<div>
+    <a class="btn-custom" asp-action="Index">Back to List </a>
+</div>
