@@ -154,3 +154,17 @@ requirementDiagram
 ### User Manual
 
 Please visit the document redirected to see the user manual [User Manual](/Documentation/Project-information/UserManual.md)
+
+### DFD
+
+#### Level 0 DFD
+
+![Level0](/Documentation/Project-info-picture/Level0.jpg)
+
+### Level 1 : User Operations
+
+![Level1](/Documentation/Project-info-picture/Level1User.jpg)
+
+### Level 1 : Admin Operations
+
+![Level1](/Documentation/Project-info-picture/Level1Admin.jpg)
