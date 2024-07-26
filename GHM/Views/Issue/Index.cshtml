@@ -42,3 +42,44 @@
 <div>
     <a  asp-action="Index" asp-controller="Dashboard">Back to List</a>
 </div>
+
+<style>
+    h1,h2,h3 .control-label {
+        color: white;
+    }
+    body{
+        color: white;
+    }
+    th, tr{
+        color:white;
+    }
+    /* Button Styles */
+    .btn-custom {
+        color: #1C5792;
+        margin: 10px 0px;
+        text-decoration: none;
+        /* Removes underline */
+        background-color: white;
+        /* Blue background */
+        border: 1px solid #1C5792;
+        /* Blue border */
+        padding: 10px 20px;
+        /* Padding */
+        border-radius: 5px;
+        /* Rounded corners */
+        display: inline-block;
+        /* Align properly */
+        transition: background-color 0.3s, color 0.3s;
+        /* Smooth transition */
+    }
+
+        .btn-custom:hover {
+            background-color: #1C5792;
+            ;
+            /* Orange background on hover */
+            color: white;
+            /* White text on hover */
+            border: 1px solid #F1802B;
+            /* Orange border on hover */
+        }
+</style>

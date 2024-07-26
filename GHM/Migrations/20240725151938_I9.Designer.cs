@@ -2,6 +2,7 @@
 using GHM;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,29 +10,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GHM.Migrations
 {
     [DbContext(typeof(GhmDbContext))]
-    partial class GhmDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240725151938_I9")]
+    partial class I9
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.7");
-
-            modelBuilder.Entity("GHM.Feedback", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Answer")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("TeacherId")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Feedbacks");
-                });
 
             modelBuilder.Entity("GHM.FeedbackQuestion", b =>
                 {

@@ -2,6 +2,7 @@
 using GHM;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GHM.Migrations
 {
     [DbContext(typeof(GhmDbContext))]
-    partial class GhmDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240726032940_I11")]
+    partial class I11
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.7");
@@ -23,6 +26,12 @@ namespace GHM.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("Answer")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("FeedbackQuestionId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ModuleId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("TeacherId")

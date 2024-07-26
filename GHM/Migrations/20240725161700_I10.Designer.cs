@@ -2,6 +2,7 @@
 using GHM;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GHM.Migrations
 {
     [DbContext(typeof(GhmDbContext))]
-    partial class GhmDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240725161700_I10")]
+    partial class I10
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.7");
@@ -22,7 +25,31 @@ namespace GHM.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Answer")
+                    b.Property<int>("Answer1")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Answer2")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Answer3")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Answer4")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("FeedbackQuestionId1")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("FeedbackQuestionId2")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("FeedbackQuestionId3")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("FeedbackQuestionId4")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ModuleId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("TeacherId")

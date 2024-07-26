@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\issue\\resolvedissues.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\issue\\resolvedissues.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\issue\\issuelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\issue\\issuelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\issue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\issue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\all\\modulelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\all\\modulelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\all\\createfeedbackquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\all\\createfeedbackquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\all\\teacherlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\all\\teacherlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\all\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\all\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\issue\\createissue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\issue\\createissue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\issue\\editstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\issue\\editstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\all\\createteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\all\\createteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -13,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\controllers\\allcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:controllers\\allcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\all\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\all\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -34,14 +74,6 @@
       "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\all\\feedbackform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\issue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\issue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\all\\modulelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\all\\modulelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -52,14 +84,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\all\\teacherlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\all\\teacherlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\all\\createteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|solutionrelative:views\\all\\createteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{810D73C2-265D-42AC-B4E1-004A0106EC27}|GHM.csproj|c:\\users\\user\\onedrive\\desktop\\hackthon\\ghm\\views\\all\\createmodule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -110,6 +134,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ResolvedIssues.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\ResolvedIssues.cshtml",
+              "RelativeDocumentMoniker": "Views\\Issue\\ResolvedIssues.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\ResolvedIssues.cshtml",
+              "RelativeToolTip": "Views\\Issue\\ResolvedIssues.cshtml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T05:55:12.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IssueList.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\IssueList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Issue\\IssueList.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\IssueList.cshtml",
+              "RelativeToolTip": "Views\\Issue\\IssueList.cshtml",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAuwGMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T05:52:38.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateFeedbackQuestion.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\CreateFeedbackQuestion.cshtml",
+              "RelativeDocumentMoniker": "Views\\All\\CreateFeedbackQuestion.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\CreateFeedbackQuestion.cshtml",
+              "RelativeToolTip": "Views\\All\\CreateFeedbackQuestion.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T05:51:09.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateIssue.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\CreateIssue.cshtml",
+              "RelativeDocumentMoniker": "Views\\Issue\\CreateIssue.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\CreateIssue.cshtml",
+              "RelativeToolTip": "Views\\Issue\\CreateIssue.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAuwF4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T05:48:53.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\EditStatus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Issue\\EditStatus.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\EditStatus.cshtml",
+              "RelativeToolTip": "Views\\Issue\\EditStatus.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAuwFAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T05:48:41.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Issue\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\Index.cshtml",
+              "RelativeToolTip": "Views\\Issue\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T04:41:40.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\All\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\Index.cshtml",
+              "RelativeToolTip": "Views\\All\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T19:00:02.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModuleList.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\ModuleList.cshtml",
+              "RelativeDocumentMoniker": "Views\\All\\ModuleList.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\ModuleList.cshtml",
+              "RelativeToolTip": "Views\\All\\ModuleList.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T17:43:34.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T05:47:10.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Login.css",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\wwwroot\\css\\Login.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Login.css",
@@ -122,72 +263,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAABkAAAAAAAAAAAAowCYAAAAMAAAA",
+              "DocumentIndex": 5,
+              "Title": "TeacherList.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\TeacherList.cshtml",
+              "RelativeDocumentMoniker": "Views\\All\\TeacherList.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\TeacherList.cshtml",
+              "RelativeToolTip": "Views\\All\\TeacherList.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAABQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T03:58:34.442Z",
+              "WhenOpened": "2024-07-24T18:11:22.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FeedbackQuestionList.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\FeedbackQuestionList.cshtml",
-              "RelativeDocumentMoniker": "Views\\All\\FeedbackQuestionList.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\FeedbackQuestionList.cshtml",
-              "RelativeToolTip": "Views\\All\\FeedbackQuestionList.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAD8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T18:27:44.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\All\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\Index.cshtml",
-              "RelativeToolTip": "Views\\All\\Index.cshtml",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAwDcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T19:00:02.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FeedbackForm.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\FeedbackForm.cshtml",
-              "RelativeDocumentMoniker": "Views\\All\\FeedbackForm.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\FeedbackForm.cshtml",
-              "RelativeToolTip": "Views\\All\\FeedbackForm.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T18:58:55.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Models\\ViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModel.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Models\\ViewModel.cs",
-              "RelativeToolTip": "Models\\ViewModel.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAA0wDwAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:14:27.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "AllController.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Controllers\\AllController.cs",
               "RelativeDocumentMoniker": "Controllers\\AllController.cs",
@@ -195,12 +284,72 @@
               "RelativeToolTip": "Controllers\\AllController.cs",
               "ViewState": "AQIAANkAAAAAAAAAAAAQwOQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T16:58:37.358Z",
+              "WhenOpened": "2024-07-24T16:58:37.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Models\\ViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Models\\ViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAA0wDwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T18:14:27.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FeedbackForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\FeedbackForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\All\\FeedbackForm.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\FeedbackForm.cshtml",
+              "RelativeToolTip": "Views\\All\\FeedbackForm.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T18:58:55.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateTeacher.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\CreateTeacher.cshtml",
+              "RelativeDocumentMoniker": "Views\\All\\CreateTeacher.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\CreateTeacher.cshtml",
+              "RelativeToolTip": "Views\\All\\CreateTeacher.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T18:01:15.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
+              "Title": "FeedbackQuestionList.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\FeedbackQuestionList.cshtml",
+              "RelativeDocumentMoniker": "Views\\All\\FeedbackQuestionList.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\FeedbackQuestionList.cshtml",
+              "RelativeToolTip": "Views\\All\\FeedbackQuestionList.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T18:27:44.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAowCYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T03:58:34.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -208,12 +357,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAA1wBoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T04:05:47.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T04:05:47.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -221,12 +369,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AQIAAHkUAAAAAAAAAAAYwIUUAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-07-26T05:01:49.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T05:01:49.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "GhmDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\GhmDbContext.cs",
               "RelativeDocumentMoniker": "GhmDbContext.cs",
@@ -234,25 +381,11 @@
               "RelativeToolTip": "GhmDbContext.cs",
               "ViewState": "AQIAAEoAAAAAAAAAAAAmwFcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T04:47:28.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T04:47:28.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Issue\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\Issue\\Index.cshtml",
-              "RelativeToolTip": "Views\\Issue\\Index.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T04:41:40.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -260,49 +393,11 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T04:05:38.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T04:05:38.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ModuleList.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\ModuleList.cshtml",
-              "RelativeDocumentMoniker": "Views\\All\\ModuleList.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\ModuleList.cshtml",
-              "RelativeToolTip": "Views\\All\\ModuleList.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAACcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T17:43:34.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TeacherList.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\TeacherList.cshtml",
-              "RelativeDocumentMoniker": "Views\\All\\TeacherList.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\TeacherList.cshtml",
-              "RelativeToolTip": "Views\\All\\TeacherList.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAADgvxQAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T18:11:22.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateTeacher.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\CreateTeacher.cshtml",
-              "RelativeDocumentMoniker": "Views\\All\\CreateTeacher.cshtml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\CreateTeacher.cshtml",
-              "RelativeToolTip": "Views\\All\\CreateTeacher.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T18:01:15.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "CreateModule.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Hackthon\\GHM\\Views\\All\\CreateModule.cshtml",
               "RelativeDocumentMoniker": "Views\\All\\CreateModule.cshtml",
